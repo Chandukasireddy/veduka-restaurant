@@ -96,6 +96,7 @@
 /***Adding rounded corners to buttons***/
 .orderbutton{
     border-radius:18px;
+    font-size:14px
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
