@@ -65,10 +65,6 @@
 }
 
 /*** Navbar ***/
-.Logo {
-  height: 120px;
-  width: 180px;
-}
 .navbar-dark .navbar-nav .nav-link {
   position: relative;
   margin-left: 25px;
@@ -105,11 +101,6 @@
 }
 
 @media (max-width: 991.98px) {
-  .Logo {
-    height: 80px;
-    width: 120px;
-  }
-
   .sticky-top.navbar-dark {
     position: relative;
   }
@@ -132,37 +123,16 @@
 
 @media (min-width: 992px) {
   .navbar-dark {
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 999;
     background: var(--dark) !important;
-    border: 2px;
-    border-color: var(--primary) !important;
   }
 
   .sticky-top.navbar-dark {
     position: fixed;
     background: var(--dark) !important;
   }
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-  width: 90%;
-  max-width: 1200px;
-  margin: 20px 0;
-}
-
-.grid-item {
-  background-color: black;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  font-size: 18px;
-  color: #333;
 }
