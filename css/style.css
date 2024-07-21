@@ -93,6 +93,10 @@
     outline: none;
     transition: .5s;
 }
+.Logo{
+    height: 90px;
+    width: 140px;
+}
 /***Adding rounded corners to buttons***/
 .orderbutton{
     border-radius:18px;
@@ -209,6 +213,10 @@
 .section-title.text-start::before,
 .section-title.text-end::after {
     display: none;
+}
+.Achievement{
+  height: 150px;
+  width: 150px;
 }
 
 
